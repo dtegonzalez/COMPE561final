@@ -1,0 +1,83 @@
+
+body {
+    /* background-color: powderblue; */
+    background-image: url('https://www.cotting-group.com/wp-content/uploads/2019/07/Ebene-Rouge.jpg');
+  }
+  h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+  }
+  p {
+    color: black;
+    font-family: 'Comfortaa', cursive;
+font-family: 'PT Sans Caption', sans-serif;
+text-align: center;
+  }
+
+ 
+.carousel{
+    width: 80%;
+    height: 10%;
+    /* background-color: rgb(199, 14, 14); */
+    position: center;
+    object-fit:none; 
+    margin: auto;
+}
+
+  
+.container{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+
+}
+
+.card-body{
+    background-color: rgba(112, 12, 12, 0.76);
+    text-align: center;
+}
+
+.card-footer{
+    background-color: rgba(187, 135, 135, 0.877);
+    text-align: center;
+}
+
+.button 
+{
+    
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    float:right;
+    background-color: rgba(112, 12, 12, 0.76);
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+}
+.button a 
+{
+    text-decoration: none;
+    color: #555;
+    line-height: 25px;
+}
+
+#prev 
+{
+    display:none;
+}
+#start 
+{
+    display:none;
+    width: 100px;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
+
+.infoform{
+    position: center;
+    background-color: rgba(255, 235, 205, 0.616);
+
+}
